@@ -20,7 +20,7 @@
 				}
 			],
 			"miDebuggerPath": "/usr/bin/gdb",
-			"preLaunchTask": "Build Sandbox"
+			"preLaunchTask": "Build Meiro"
 		},
 		{
 			"name": "Run Sandbox",
@@ -28,7 +28,7 @@
 			"request": "launch",
 			"program": "${workspaceFolder}/build/Sandbox/Sandbox",
 			"cwd": "${workspaceFolder}/build/Sandbox",
-			"preLaunchTask": "Build Sandbox"
+			"preLaunchTask": "Build Meiro"
 		}
 	]
 }

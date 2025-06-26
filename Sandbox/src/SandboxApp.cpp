@@ -1,11 +1,11 @@
 #include "SandboxApp.h"
 
-#include <iostream>
+#include <Meiro/Core/Log.h>
 
 Meiro::Application* Meiro::CreateApplication() {
 	return new SandboxApp();
 }
 
 void SandboxApp::OnUpdate() {
-	std::cout << "Update Sandbox app" << std::endl;
+	MEIRO_TRACE("Update Sandbox app");
 }
