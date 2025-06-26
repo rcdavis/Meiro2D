@@ -20,41 +20,41 @@ namespace Meiro {
 		}
 
 		EVENT_CLASS_TYPE(WindowResize)
-        EVENT_CLASS_CATEGORY(Event::Category::Application)
+		EVENT_CLASS_CATEGORY(Event::Category::Application)
 
 	private:
 		uint32 mWidth, mHeight;
 	};
 
 	class WindowCloseEvent : public Event {
-    public:
-        WindowCloseEvent() {}
+	public:
+		WindowCloseEvent() {}
 
-        EVENT_CLASS_TYPE(WindowClose)
-        EVENT_CLASS_CATEGORY(Event::Category::Application)
-    };
+		EVENT_CLASS_TYPE(WindowClose)
+		EVENT_CLASS_CATEGORY(Event::Category::Application)
+	};
 
-    class AppTickEvent : public Event {
-    public:
-        AppTickEvent() {}
+	class AppTickEvent : public Event {
+	public:
+		AppTickEvent() {}
 
-        EVENT_CLASS_TYPE(AppTick)
-        EVENT_CLASS_CATEGORY(Event::Category::Application)
-    };
+		EVENT_CLASS_TYPE(AppTick)
+		EVENT_CLASS_CATEGORY(Event::Category::Application)
+	};
 
-    class AppUpdateEvent : public Event {
-    public:
-        AppUpdateEvent() {}
+	class AppUpdateEvent : public Event {
+	public:
+		AppUpdateEvent() {}
 
-        EVENT_CLASS_TYPE(AppUpdate)
-        EVENT_CLASS_CATEGORY(Event::Category::Application)
-    };
+		EVENT_CLASS_TYPE(AppUpdate)
+		EVENT_CLASS_CATEGORY(Event::Category::Application)
+	};
 
-    class AppRenderEvent : public Event {
-    public:
-        AppRenderEvent() {}
+	class AppRenderEvent : public Event {
+	public:
+		AppRenderEvent() {}
 
-        EVENT_CLASS_TYPE(AppRender)
-        EVENT_CLASS_CATEGORY(Event::Category::Application)
-    };
+		EVENT_CLASS_TYPE(AppRender)
+		EVENT_CLASS_CATEGORY(Event::Category::Application)
+	};
 }

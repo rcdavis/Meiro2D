@@ -9,7 +9,8 @@
 				"/usr/local/include"
 			],
 			"defines": [
-				"MEIRO_LOGGING_ENABLED"
+				"MEIRO_LOGGING_ENABLED",
+				"MEIRO_ASSERTS_ENABLED"
 			],
 			"compilerPath": "/usr/bin/gcc",
 			"cStandard": "c17",
